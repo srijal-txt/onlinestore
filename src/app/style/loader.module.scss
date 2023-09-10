@@ -1,0 +1,19 @@
+.loading{
+    display: grid;
+    place-items: center;
+    height: 80vh;
+}
+.loader{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    border: 3px solid #ccc;
+    animation: load 3s linear  infinite;
+    border-top: 3px solid #eea302;
+}
+@keyframes load {
+    100%{
+        transform: rotate(360deg);
+    }
+}

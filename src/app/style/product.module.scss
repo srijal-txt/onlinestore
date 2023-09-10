@@ -1,0 +1,22 @@
+
+.product_img{
+    position: relative;
+  }
+  .product_card{
+    padding: 0.5rem;
+    background: rgb(107 114 128 / 0.3);
+    margin: 0.5rem;
+    border-radius: 10px;
+    height: 100%;
+    img{
+        border-radius: 10px;
+    }
+  }
+.product_des{
+  a{
+    transition: all linear 200ms;
+    &:hover{
+      color: #eea302 !important;
+    }
+  }
+}

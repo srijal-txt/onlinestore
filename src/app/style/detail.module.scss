@@ -1,0 +1,16 @@
+.add_to_cart{
+    background: #eea302;
+    padding: 5px;
+    border: 1px solid #000;
+    &:hover{
+        background-color: #eeb02a;
+    }
+}
+.count{
+    border: 1px solid #ccc;
+    padding: 2px 4px;
+}
+.img_des{
+    width: 100%;
+    margin-bottom: 15px;
+}
